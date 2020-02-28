@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// 使用一个临时变量储存左上的临时变量，使用一维数组
 class Solution {
 public:
 	int maximalSquare(vector<vector<char>>& matrix) {
@@ -27,9 +28,3 @@ public:
 		return maxlen * maxlen;
 	}
 };
-int main()
-{
-	vector<vector<char>> input = { {'1'} };
-	Solution s;
-	s.maximalSquare(input);
-}
