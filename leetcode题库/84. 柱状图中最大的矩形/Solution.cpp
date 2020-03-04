@@ -12,11 +12,11 @@ public:
             while( !s.empty() && (i == n ||heights[i] < heights[s.top()])){
                 int height = heights[s.top()];
                 s.pop();
-                int width = !s.empty() ? i - 1 - s.top():i; 
+                int width = !s.empty() ? i - 1 - s.top():i;    // 这里是计算前一个的面积,所以循环要多一次，或者底下再写一遍
                 res = max(res,height * width);
 
             }
-            s.push(i);
+            s.push(i);	                                       // 总是要把当前高度放进栈中
         }
         return res;
     }
