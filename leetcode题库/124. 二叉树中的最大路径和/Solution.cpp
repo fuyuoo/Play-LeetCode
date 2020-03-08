@@ -7,6 +7,7 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+ // 相当于遍历一颗树，找到最大连续子序列和
 class Solution {
 private:
     int maxSum = INT_MIN;
