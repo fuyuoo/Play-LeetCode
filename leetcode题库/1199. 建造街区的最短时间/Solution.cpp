@@ -1,3 +1,4 @@
+// 编程厉害的往往不是编程厉害的
 class Solution {
 public:
     int minBuildTime(vector<int>& blocks, int split) {
