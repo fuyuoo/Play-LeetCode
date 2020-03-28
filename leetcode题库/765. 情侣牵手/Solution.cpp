@@ -1,6 +1,5 @@
 // 其实算法比较简单，主要是建模的过程
 
-
 class Solution {
 private:
 	vector<int> f;
