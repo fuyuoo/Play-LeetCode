@@ -5,7 +5,7 @@ public:
         if (c == -1)
 			return 0;
 		int na = 1;
-		long long ret = 0;
+		long long ret = 0; 
 		if (str[c] == '-')
 		{
 			na = -1;
