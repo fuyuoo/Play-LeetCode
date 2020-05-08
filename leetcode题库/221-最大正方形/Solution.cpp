@@ -1,7 +1,4 @@
-#include <algorithm>
-#include <vector>
-using namespace std;
-
+// 使用二维数组，这样就可以看出每一个点的最大正方形，但是因为是求全局的最大，所以不需要储存下来，可以只储存当前需要判断的这一行，和
 class Solution {
 public:
 	int maximalSquare(vector<vector<char>>& matrix) {
@@ -22,9 +19,3 @@ public:
 		return maxlen * maxlen;
 	}
 };
-int main()
-{
-	vector<vector<char>> input = { {'1'} };
-	Solution s;
-	s.maximalSquare(input);
-}

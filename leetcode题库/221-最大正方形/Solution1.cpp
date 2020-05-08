@@ -16,6 +16,7 @@ public:
 			for (int j = 1; j <= m; j++) {
 				int tmp = dp[j];
 				if (matrix[i - 1][j - 1] == '1') {
+					// 因为当前有一个1，所以取左边上面和左上三个的最小值+1，最小值的意思就是能否构成正方形
 					dp[j] = min(min(dp[j], dp[j - 1]), prev) + 1;
 					maxlen = max(maxlen, dp[j]);
 				}
