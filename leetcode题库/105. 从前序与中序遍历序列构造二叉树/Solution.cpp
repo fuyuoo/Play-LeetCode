@@ -1,3 +1,4 @@
+// 不能只使用pivot 是因为，一个是前序的Pivot  一个是中学的pivot
 class Solution {
 private:
     TreeNode* helper(vector<int>& preorder, int l,int r,vector<int>& inorder,int m,int n){
