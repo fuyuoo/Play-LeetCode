@@ -1,3 +1,4 @@
+// 今天直接秒写出来了，虽然出了些边界问题，但是状态转移方程是正确的
 class Solution {
 public:
 	int rob(vector<int>& nums) {
