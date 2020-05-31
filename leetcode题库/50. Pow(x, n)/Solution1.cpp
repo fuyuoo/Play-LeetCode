@@ -22,6 +22,6 @@ private:
     }
 public:
     double myPow(double x, int n) {
-        return _myPow(x,n);
+        return _myPow(x,n); 
     }
 };
