@@ -9,5 +9,5 @@ public:
             res.emplace_back(i ^ i / 2);
         }
         return res;
-    }
+    } 
 };
