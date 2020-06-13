@@ -1,7 +1,7 @@
 // 使用# 扩充，这样肯定是奇数大小的字符串，使得算法统一
 // 然后使用中心扩散，遍历每一个点，然后向外扩散，看当前最多能达到多少回文
 class Solution {
-private:
+private: 
 	int getLR(string& s,int l,int r,int n)
 	{
 		while (l>=0 && r <n &&  s[l] == s[r])
