@@ -1,13 +1,5 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
  // 相当于遍历一颗树，找到最大连续子序列和
+ // 使用后序遍历，这样就会先得到左右子树结果然后回到根节点
 class Solution {
 private:
     int maxSum = INT_MIN;
